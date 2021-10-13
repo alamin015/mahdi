@@ -1,0 +1,37 @@
+
+@media screen and (max-width: 767px){
+    #header .header_ln,
+    #header .header_menu{
+        display: none;
+    }
+    .top_header .menu_bar_icon{
+        display: block;
+    }
+    #about .about_us{
+        margin-bottom: 20px;
+    }
+    .logo_md_none{
+        display: none;
+    }
+    .none-col{
+        display: none;
+    }
+    #work .work_down_img{
+        margin-top: 0px;
+    }
+    .margin_colum_mobile{
+        margin: 15px 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero .hero_middle_content{
+        font-size: 32px;
+    }
+    .center{
+        text-align: center;
+    }
+    .popUp{
+        width: 90%;
+    }
+}
